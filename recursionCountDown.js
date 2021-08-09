@@ -1,0 +1,11 @@
+const countDown = (num) => {
+    if (num === 0) {
+        console.log('countdown finished!');
+        return;
+    }
+    console.log(num);
+    num--
+    countDown(num);
+};
+
+countDown(5)
